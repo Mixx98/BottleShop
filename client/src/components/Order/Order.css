@@ -1,0 +1,144 @@
+:root {
+  --main-color: #6c49b8;
+  --text-color: #566270;
+  --sub-color: #d9d9d9;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  text-align: center;
+}
+body {
+  background-color: #6c49b8;
+}
+
+@font-face {
+  font-family: "AlexBrush";
+  src: url("../..//fonts/AlexBrush-Regular.ttf");
+}
+@font-face {
+  font-family: "DXPnM";
+  src: url("../../fonts/DXPnM-KSCpc-EUC-H.ttf");
+}
+
+.icons {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  grid-gap: 100px;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0;
+}
+
+.products_d {
+  display: grid;
+  grid-template-columns: 0.5fr 3fr 1fr 2fr 3fr;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#element.style {
+  color: var(--main-color) !important;
+}
+
+.named {
+  display: grid;
+  grid-template-columns: 3fr 1fr 2fr 3fr;
+  padding: 20px 0;
+  background-color: #d9d9d940;
+  font-family: "DXPnM";
+  font-size: 1.5rem;
+  color: var(--text-color);
+  font-weight: bold;
+}
+
+.orders {
+  color: var(--text-color);
+  display: grid;
+  grid-template-columns: 3fr 1fr 2fr 3fr;
+  justify-items: center;
+  align-items: center;
+}
+
+.orderCount {
+  font-family: "DXPnM";
+  font-size: 1.5rem;
+  color: var(--text-color);
+  align-items: center;
+}
+
+.totalPrice {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  align-items: center;
+  font-family: "DXPnM";
+  color: var(--text-color);
+  font-size: 1.5rem;
+  padding-top: 10px;
+}
+
+.shipment {
+  background-color: #d9d9d940;
+  color: var(--text-color);
+  padding: 20px 0;
+  margin: 0;
+  display: flex;
+  font-family: "DXPnM";
+  font-weight: bold;
+  justify-content: center;
+}
+
+.input_user {
+  text-align: start;
+}
+
+.shipping {
+  margin: 50px 10%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 30px;
+  font-family: "DXPnM";
+  font-size: 1rem;
+  color: var(--text-color);
+}
+
+#phone {
+  display: grid;
+
+  justify-items: center;
+}
+
+.email {
+  display: grid;
+  grid-template-columns: 2fr 0.5fr 3fr;
+  justify-items: center;
+}
+
+#address_search {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 5px;
+  justify-items: center;
+}
+
+.postmodal {
+  background: var(--main-color);
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.postBtn {
+  font-family: "DXPnM";
+  font-size: 1rem;
+  color: var(--text-color);
+}
+
+.last_order {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding-top: 50px;
+  padding-bottom: 200px;
+}

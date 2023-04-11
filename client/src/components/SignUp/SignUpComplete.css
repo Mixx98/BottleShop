@@ -1,0 +1,45 @@
+:root {
+  --main-color: #6c49b8;
+  --text-color: #566270;
+  --sub-color: #e0e3da;
+  margin: 0;
+}
+
+#complete_h1 {
+  margin: 70px 0 30px 0;
+  font-weight: bold;
+  color: var(--main-color);
+}
+
+#complete_h3 {
+  display: flex;
+  justify-content: center;
+  margin: 0 20% 50px 20%;
+  padding-bottom: 50px;
+  color: var(--text-color);
+  border-bottom: 5px solid var(--main-color);
+}
+
+#complete_h3 :nth-child(5) {
+  font-weight: bold;
+  color: var(--main-color);
+}
+
+h3 {
+  margin: 0 20px;
+}
+
+#complete_text {
+  margin-bottom: 50px;
+  font-size: 50px;
+  font-weight: bold;
+  color: var(--main-color);
+}
+
+#complete_button {
+  margin-bottom: 100px;
+  min-width: 40%;
+  background-color: var(--main-color);
+  color: var(--sub-color);
+  font-size: 25px;
+}

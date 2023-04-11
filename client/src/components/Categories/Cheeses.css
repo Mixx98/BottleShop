@@ -1,0 +1,51 @@
+:root {
+  --main-color: #6c49b8;
+  --text-color: #566270;
+  --sub-color: #d9d9d9;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  text-align: center;
+}
+
+@font-face {
+  font-family: "AlexBrush";
+  src: url("../../fonts/AlexBrush-Regular.ttf");
+}
+@font-face {
+  font-family: "DXPnM";
+  src: url("../../fonts/DXPnM-KSCpc-EUC-H.ttf");
+}
+
+.cheese_img {
+  margin: 30px 0;
+  width: 100%;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.cheeses_text {
+  color: var(--main-color);
+  padding: 50px 0;
+  font-family: "DXPnM";
+  font-size: 5rem;
+}
+
+.best_cheeses {
+  font-family: "DXPnM";
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 50px 0;
+}
+
+.cheeses_list {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-gap: 20px;
+  justify-content: space-evenly;
+
+  padding: 50px;
+  font-family: "DXPnM";
+  font-size: 1.5rem;
+}

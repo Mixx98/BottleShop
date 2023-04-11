@@ -1,0 +1,63 @@
+:root {
+  --main-color: #6c49b8;
+  --text-color: #566270;
+  --sub-color: #d9d9d9;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  text-align: center;
+}
+body {
+  background-color: #6c49b8;
+}
+
+@font-face {
+  font-family: "AlexBrush";
+  src: url("../..//fonts/AlexBrush-Regular.ttf");
+}
+@font-face {
+  font-family: "DXPnM";
+  src: url("../../fonts/DXPnM-KSCpc-EUC-H.ttf");
+}
+
+.wine_img {
+  margin: 30px 0;
+  height: 800px;
+  object-fit: fill;
+  overflow: hidden;
+}
+
+.wine_text {
+  color: var(--main-color);
+  padding: 50px 0;
+  font-family: "DXPnM";
+  font-size: 5rem;
+}
+
+.best_wine {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  grid-gap: 50px;
+  justify-content: center;
+  padding: 100px, 50px;
+  font-family: "DXPnM";
+  font-size: 1.5rem;
+  display: flex;
+}
+
+.wine_list {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-gap: 20px;
+  justify-content: space-evenly;
+
+  padding: 50px;
+  font-family: "DXPnM";
+  font-size: 1.5rem;
+}
+
+#numbers {
+  margin: 20px 0;
+  justify-content: center;
+  align-items: center;
+}

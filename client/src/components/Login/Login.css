@@ -1,0 +1,91 @@
+:root {
+  --main-color: #6c49b8;
+  --text-color: #566270;
+  --sub-color: #e0e3da;
+  margin: 0;
+}
+
+#login_box {
+  font-weight: bold;
+}
+/* 로그인 글자 */
+#login_h1 {
+  font-size: 50px;
+  color: var(--main-color);
+  font-weight: bold;
+  margin-top: 2%;
+}
+
+/* 사각틀 */
+#login_form {
+  margin: 2% auto;
+  width: 40%;
+  border: 2px solid var(--main-color);
+}
+
+/* 내부 간격 */
+#login_input {
+  margin: 10% 10% 1% 10%;
+}
+
+/* input, botton 사이 간격 */
+#login_input_id,
+#login_login_button,
+#login_nonuser_order_button {
+  margin-bottom: 2px;
+}
+
+/* 보라색 버튼 */
+#login_login_button,
+#login_nonuser_order_button {
+  --bs-btn-bg: var(--main-color);
+  --bs-btn-border-color: var(--main-color);
+  --bs-btn-hover-bg: #583b95;
+  --bs-btn-hover-border-color: var(--main-color);
+}
+
+/* 회색 버튼 */
+#login_signup_button,
+#login_nonuser_ordercheck_button {
+  --bs-btn-bg: var(--text-color);
+  --bs-btn-border-color: var(--text-color);
+  --bs-btn-hover-bg: #47515c;
+  --bs-btn-hover-border-color: var(--text-color);
+  margin-bottom: 10%;
+}
+
+/* input 크기 */
+#login_input_id,
+#login_input_password {
+  height: 70px;
+  font-size: 25px;
+  border: 2px solid var(--main-color);
+}
+
+/* user 버튼 크기 */
+#login_login_button,
+#login_signup_button {
+  width: 80%;
+  --bs-btn-padding-x: 20px;
+  --bs-btn-padding-y: 15px;
+  --bs-btn-font-size: 25px;
+}
+
+/* nonuser 버튼 크기 */
+#login_nonuser_order_button,
+#login_nonuser_ordercheck_button {
+  width: 32%;
+  --bs-btn-padding-x: 20px;
+  --bs-btn-padding-y: 15px;
+  --bs-btn-font-size: 25px;
+}
+
+#login_checkbox {
+  display: flex;
+  margin: 20px 0 0 10px;
+  font-size: 20px;
+}
+
+#chekbox {
+  margin-left: 10px;
+}

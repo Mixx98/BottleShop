@@ -1,0 +1,47 @@
+:root {
+  --main-color: #6c49b8;
+  --text-color: #566270;
+  --sub-color: #e0e3da;
+}
+
+#mypage_order_title {
+  font-size: 40px;
+  font-weight: bold;
+  margin: 50px 20%;
+  color: var(--main-color);
+}
+
+#mypage_order_nav_bar {
+  margin: 0 20% 1px 20%;
+  border-top: 3px solid var(--main-color);
+}
+
+#mypage_order_nav {
+  font-size: 25px;
+  font-weight: bold;
+  --bs-nav-link-color: var(--text-color);
+  --bs-nav-link-hover-color: var(--main-color);
+  --bs-nav-tabs-link-active-color: var(--main-color);
+}
+
+#mypage_order_count {
+  margin: 0 20%;
+  display: flex;
+  justify-content: center;
+  background-color: var(--text-color);
+  color: white;
+}
+
+.mypage_order_box {
+  width: fit-content;
+  margin: 0 1%;
+}
+
+.mypage_order_box > p {
+  margin: 10px;
+  font-size: 25px;
+}
+
+#mypage_order_orderlist {
+  margin: 0 20% 50px 20%;
+}

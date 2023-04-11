@@ -1,0 +1,83 @@
+:root {
+  --main-color: #6c49b8;
+  --text-color: #566270;
+  --sub-color: #d9d9d9;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  text-align: center;
+}
+body {
+  background-color: #6c49b8;
+}
+
+@font-face {
+  font-family: "AlexBrush";
+  src: url("../..//fonts/AlexBrush-Regular.ttf");
+}
+@font-face {
+  font-family: "DXPnM";
+  src: url("../../fonts/DXPnM-KSCpc-EUC-H.ttf");
+}
+
+.icons {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  grid-gap: 100px;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0;
+}
+
+element.style {
+  color: none;
+}
+
+.product {
+  padding-bottom: 600px;
+}
+
+.names {
+  padding: 20px 0;
+  font-size: 2rem;
+  font-family: "DXPnM";
+  color: var(--text-color);
+  display: grid;
+  grid-template-columns: 0.5fr 3fr 1fr 2fr 3fr 3fr;
+  grid-gap: 40px;
+  background-color: #d9d9d940;
+}
+
+.cartCheckbox {
+  display: flex;
+
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.carts {
+  display: grid;
+  grid-template-columns: 0.5fr 3fr 1fr 2fr 3fr 3fr;
+  grid-gap: 10px;
+  align-items: center;
+  justify-items: center;
+
+  padding: 20px 0;
+  font-size: 1.5rem;
+  font-family: "DXPnM";
+  color: var(--text-color);
+}
+
+.summitButton {
+  display: grid;
+  text-decoration: none;
+  grid-gap: 30px;
+  justify-items: center;
+}
+
+.summitCart {
+  text-decoration: none;
+  border-radius: 5px;
+  border-color: #6c49b8;
+  color: var(--text-color);
+}

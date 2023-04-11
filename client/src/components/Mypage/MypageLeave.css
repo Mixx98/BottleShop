@@ -1,0 +1,52 @@
+:root {
+  --main-color: #6c49b8;
+  --text-color: #566270;
+  --sub-color: #e0e3da;
+}
+
+#mypage_leave_title {
+  font-size: 40px;
+  font-weight: bold;
+  margin: 50px 20%;
+  color: var(--main-color);
+}
+
+#mypage_leave_nav_bar {
+  margin: 0 20% 1px 20%;
+  border-top: 3px solid var(--main-color);
+}
+
+#mypage_leave_nav {
+  font-size: 25px;
+  font-weight: bold;
+  --bs-nav-link-color: var(--text-color);
+  --bs-nav-link-hover-color: var(--main-color);
+  --bs-nav-tabs-link-active-color: var(--main-color);
+}
+
+#mypage_leave_box {
+  margin: 100px 0;
+}
+
+#mypage_leave_text {
+  font-size: 30px;
+  font-weight: bold;
+  color: var(--main-color);
+  margin-bottom: 30px;
+}
+
+#mypage_leave_password {
+  display: flex;
+  justify-content: center;
+}
+
+#mypage_leave_input_password {
+  width: 40%;
+}
+
+#mypage_information_leave_button {
+  --bs-btn-bg: var(--main-color);
+  --bs-btn-border-color: var(--main-color);
+  --bs-btn-hover-bg: #53398d;
+  --bs-btn-hover-border-color: #53398d;
+}
